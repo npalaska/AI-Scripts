@@ -17,6 +17,7 @@ ROW = 4
   F F F F
 F F F F F
 """
+
 def fullboard(board):
     ROW = 4
     COLUMN = 0

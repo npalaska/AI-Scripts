@@ -81,7 +81,6 @@ def difference(str1, str2):
     print(test)
     return forward_metrix[len1, len2]
 
-
 print("difference between azced and abcdef")
 print("minimum distance between azced and abcdef is = {}".format(difference("azced", "abcdef")))
 
