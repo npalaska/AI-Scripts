@@ -42,7 +42,7 @@ def main():
     print(counts)
 
 
-main()
+#main()
 
 def main1():
  dic={}
@@ -67,4 +67,17 @@ def main1():
  w.close()
 
 #main1()
+
+def maximize(Lists, M):
+    board = {}
+    i = 1
+    while i <= Lists:
+        board[i] = input("enter the list")
+        i += 1
+    return board
+
+print("##")
+x = maximize(3, 4)
+y = [map(int, i) for i in x]
+print(x[1]+1)
 
